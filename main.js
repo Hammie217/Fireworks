@@ -1,6 +1,9 @@
 var balls =[];
 var canvas = document.getElementById('myCanvas');
+canvas.width = innerWidth;
+canvas.height = innerHeight;
 var context = canvas.getContext('2d');
+
 var colors = [
 	'#03ff68',
 	'#3503ff',
